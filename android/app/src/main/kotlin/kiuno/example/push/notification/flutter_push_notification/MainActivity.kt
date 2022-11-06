@@ -1,4 +1,4 @@
-package kiuno.example.push.notification.flutter_push_notification
+package kiuno.example.push.notification
 
 import io.flutter.embedding.android.FlutterActivity
 

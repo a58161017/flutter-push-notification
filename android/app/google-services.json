@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564646892461",
+    "project_id": "flutterdemo-f7671",
+    "storage_bucket": "flutterdemo-f7671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564646892461:android:7b2332fd6ab00ed0fc8724",
+        "android_client_info": {
+          "package_name": "kiuno.example.push.notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564646892461-hss269g68qp7gjfncrumd8j4hstq34a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9CpYVlEdl4AxLOhO6cdTlVjeKqPFMz4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564646892461-hss269g68qp7gjfncrumd8j4hstq34a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

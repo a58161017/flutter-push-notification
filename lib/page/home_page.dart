@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_push_notification/page/home_controller.dart';
 import 'package:get/get.dart';
 
-const int tabPageCount = 4;
-
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -11,16 +9,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage>
-    with SingleTickerProviderStateMixin {
-  late TabController _tabController;
-
-  @override
-  void initState() {
-    super.initState();
-    _tabController = TabController(length: tabPageCount, vsync: this);
-  }
-
+class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final HomeController controller = Get.find<HomeController>();
